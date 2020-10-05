@@ -1,0 +1,73 @@
+{
+    "scale": 0.2,
+    "effects": {
+        "mood_sound": {
+            "sound": "minecraft:ambient.cave",
+            "tick_delay": 6000,
+            "block_search_extent": 8,
+            "offset": 2.0
+        },
+        "sky_color": 7907327,
+        "fog_color": 12638463,
+        "foliage_color": 16756934,
+        "grass_color": 2767231,
+        "water_color": 2778239,
+        "water_fog_color": 2778239
+    },
+    "surface_builder": "pd:grass",
+    "carvers": {},
+    "features": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+            "minecraft:ore_dirt",
+            "minecraft:ore_gravel",
+            "minecraft:ore_granite",
+            "minecraft:ore_diorite",
+            "minecraft:ore_andesite",
+            "minecraft:ore_coal",
+            "minecraft:ore_iron",
+            "minecraft:ore_gold",
+            "minecraft:ore_redstone",
+            "minecraft:ore_diamond",
+            "minecraft:ore_lapis",
+            "minecraft:disk_sand",
+            "minecraft:disk_clay",
+            "minecraft:disk_gravel"
+        ],
+        [],
+        [
+            "minecraft:patch_sugar_cane",
+            "minecraft:spring_water",
+            "minecraft:spring_lava",
+            "minecraft:patch_tall_grass_2",
+            "pd:pandora/sugarcane",
+            "pd:pandora/lilypad",
+            "minecraft:patch_grass_jungle",
+            "minecraft:seagrass_warm"
+        ],
+        []
+    ],
+    "starts": [
+        "minecraft:mineshaft"
+    ],
+    "spawners": {
+        "monster": [],
+        "creature": [],
+        "ambient": [],
+        "water_creature": [],
+        "water_ambient": [],
+        "misc": []
+    },
+    "spawn_costs": {},
+    "player_spawn_friendly": true,
+    "precipitation": "none",
+    "temperature": 100.0,
+    "downfall": 0.0,
+    "category": "none",
+    "depth": 0.0
+}

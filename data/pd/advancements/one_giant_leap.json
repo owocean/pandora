@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:shroomlight"
+        },
+        "background": "minecraft:textures/block/blackstone.png",
+        "title": "One Giant Leap",
+        "frame": "challenge",
+        "description": "Make a portal to Pandora",
+        "hidden": "true"
+    },
+    "criteria": {
+        "pandora_portal": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "from": "minecraft:overworld",
+                "to": "pd:pandora"
+            }
+        }
+    },
+    "rewards": {
+        "experience": 10000
+    }
+}

@@ -1,0 +1,126 @@
+{
+    "scale": 100.0,
+    "effects": {
+        "mood_sound": {
+            "sound": "minecraft:ambient.cave",
+            "tick_delay": 6000,
+            "block_search_extent": 8,
+            "offset": 2.0
+        },
+        "sky_color": 7907327,
+        "fog_color": 12638463,
+        "foliage_color": 16756934,
+        "grass_color": 2767231,
+        "water_color": 2778239,
+        "water_fog_color": 2778239
+    },
+    "surface_builder": "pd:grass",
+    "carvers": {},
+    "features": [
+        [],
+        [],
+        [],
+        [
+            "minecraft:fossil"
+        ],
+        [],
+        [],
+        [
+            "minecraft:ore_dirt",
+            "minecraft:ore_gravel",
+            "minecraft:ore_granite",
+            "minecraft:ore_diorite",
+            "minecraft:ore_andesite",
+            "minecraft:ore_coal",
+            "minecraft:ore_iron",
+            "minecraft:ore_gold",
+            "minecraft:ore_redstone",
+            "minecraft:ore_diamond",
+            "minecraft:ore_lapis",
+            "minecraft:disk_sand",
+            "minecraft:disk_clay",
+            "minecraft:disk_gravel"
+        ],
+        [],
+        [
+            "minecraft:patch_sugar_cane",
+            "minecraft:patch_pumpkin",
+            "minecraft:spring_water",
+            "minecraft:spring_lava",
+            "minecraft:patch_tall_grass_2",
+            "pd:pandora/tree",
+            "pd:pandora/tree2",
+            "pd:pandora/tree3",
+            "pd:pandora/shrooms",
+            "pd:pandora/glowstone",
+            "pd:pandora/sugarcane",
+            "pd:pandora/flowers",
+            "pd:pandora/lilypad",
+            "minecraft:patch_grass_jungle",
+            "minecraft:vines",
+            "minecraft:warm_ocean_vegetation",
+            "minecraft:seagrass_warm",
+            "minecraft:sea_pickle"
+        ],
+        []
+    ],
+    "starts": [
+        "minecraft:ocean_ruin_warm",
+        "minecraft:shipwreck",
+        "minecraft:mineshaft",
+        "minecraft:ruined_portal_ocean"
+    ],
+    "spawners": {
+        "monster": [],
+        "creature": [
+            {
+                "type": "minecraft:sheep",
+                "weight": 10,
+                "minCount": 1,
+                "maxCount": 3
+            },
+            {
+                "type": "minecraft:cow",
+                "weight": 10,
+                "minCount": 1,
+                "maxCount": 3
+            },
+            {
+                "type": "minecraft:chicken",
+                "weight": 10,
+                "minCount": 1,
+                "maxCount": 3
+            },
+            {
+                "type": "minecraft:pig",
+                "weight": 10,
+                "minCount": 1,
+                "maxCount": 3
+            }
+        ],
+        "ambient": [],
+        "water_creature": [
+            {
+                "type": "minecraft:squid",
+                "weight": 5,
+                "minCount": 0,
+                "maxCount": 1
+            },
+            {
+                "type": "minecraft:dolphin",
+                "weight": 5,
+                "minCount": 1,
+                "maxCount": 1
+            }
+        ],
+        "water_ambient": [],
+        "misc": []
+    },
+    "spawn_costs": {},
+    "player_spawn_friendly": true,
+    "precipitation": "none",
+    "temperature": 100.0,
+    "downfall": 0.0,
+    "category": "plains",
+    "depth": 0.0
+}

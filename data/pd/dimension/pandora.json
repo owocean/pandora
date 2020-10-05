@@ -1,0 +1,52 @@
+{
+    "generator": {
+        "type": "minecraft:noise",
+        "seed": 0,
+        "biome_source": {
+            "type": "minecraft:multi_noise",
+            "humidity_noise": {
+                "firstOctave": -9,
+                "amplitudes": [
+                    0.8,
+                    0.8
+                ]
+            },
+            "altitude_noise": {
+                "firstOctave": -8,
+                "amplitudes": [
+                    1.1,
+                    1.1
+                ]
+            },
+            "weirdness_noise": {
+                "firstOctave": -4,
+                "amplitudes": [
+                    0.02,
+                    0.02
+                ]
+            },
+            "temperature_noise": {
+                "firstOctave": -9,
+                "amplitudes": [
+                    0.8,
+                    0.8
+                ]
+            },
+            "seed": 0,
+            "biomes": [
+                {
+                    "biome": "pd:pandora",
+                    "parameters": {
+                        "altitude": 0.2,
+                        "temperature": 0.1,
+                        "humidity": 1,
+                        "weirdness": 0.5,
+                        "offset": 0
+                    }
+                }
+            ]
+        },
+        "settings": "minecraft:overworld"
+    },
+    "type": "minecraft:overworld"
+}

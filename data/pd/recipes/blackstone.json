@@ -1,0 +1,9 @@
+{
+    "type": "smelting",
+    "ingredient": {
+        "item": "minecraft:coal_block"
+    },
+    "result": "minecraft:blackstone",
+    "experience": 0.35,
+    "cookingtime": 150
+}
