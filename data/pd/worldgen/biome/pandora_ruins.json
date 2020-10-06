@@ -1,5 +1,5 @@
 {
-    "scale": 0.2,
+    "scale": 1,
     "effects": {
         "mood_sound": {
             "sound": "minecraft:ambient.cave",
@@ -9,8 +9,8 @@
         },
         "sky_color": 7907327,
         "fog_color": 12638463,
-        "foliage_color": 16756934,
-        "grass_color": 2767231,
+        "foliage_color": 14540287,
+        "grass_color": 14540287,
         "water_color": 2778239,
         "water_fog_color": 2778239
     },
@@ -47,13 +47,15 @@
             "minecraft:patch_tall_grass_2",
             "pd:pandora/sugarcane",
             "pd:pandora/lilypad",
+            "pd:ruins/blackstone",
             "minecraft:patch_grass_jungle",
             "minecraft:seagrass_warm"
         ],
         []
     ],
     "starts": [
-        "minecraft:mineshaft"
+        "minecraft:mineshaft",
+        "pd:well"
     ],
     "spawners": {
         "monster": [],

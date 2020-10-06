@@ -1,0 +1,15 @@
+{
+    "name": "pd:well",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 5,
+            "element": {
+                "location": "pd:well",
+                "processors": "pd:well_variation",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        }
+    ]
+}

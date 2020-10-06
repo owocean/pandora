@@ -1,0 +1,15 @@
+{
+    "name": "pd:minitemple",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 5,
+            "element": {
+                "location": "pd:minitemple",
+                "processors": "pd:temple_variation",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        }
+    ]
+}

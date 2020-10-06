@@ -57,7 +57,6 @@
             "pd:pandora/flowers",
             "pd:pandora/lilypad",
             "minecraft:patch_grass_jungle",
-            "minecraft:vines",
             "minecraft:warm_ocean_vegetation",
             "minecraft:seagrass_warm",
             "minecraft:sea_pickle"
@@ -65,7 +64,9 @@
         []
     ],
     "starts": [
-        "minecraft:ocean_ruin_warm",
+        "pd:minitemple",
+        "minecraft:village_plains",
+        "minecraft:stronghold",
         "minecraft:shipwreck",
         "minecraft:mineshaft",
         "minecraft:ruined_portal_ocean"
@@ -93,6 +94,30 @@
             },
             {
                 "type": "minecraft:pig",
+                "weight": 10,
+                "minCount": 1,
+                "maxCount": 3
+            },
+            {
+                "type": "minecraft:fox",
+                "weight": 10,
+                "minCount": 1,
+                "maxCount": 3
+            },
+            {
+                "type": "minecraft:horse",
+                "weight": 10,
+                "minCount": 1,
+                "maxCount": 3
+            },
+            {
+                "type": "minecraft:rabbit",
+                "weight": 10,
+                "minCount": 1,
+                "maxCount": 3
+            },
+            {
+                "type": "minecraft:wolf",
                 "weight": 10,
                 "minCount": 1,
                 "maxCount": 3

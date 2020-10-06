@@ -34,19 +34,19 @@
                                     "persistent": "false",
                                     "distance": "7"
                                 },
-                                "Name": "minecraft:shroomlight"
+                                "Name": "minecraft:spruce_leaves"
                             },
                             "type": "minecraft:simple_state_provider"
                         },
                         "foliage_placer": {
                             "radius": 2,
                             "offset": 0,
-                            "height": 2,
+                            "height": 1,
                             "type": "minecraft:blob_foliage_placer"
                         },
                         "trunk_placer": {
-                            "base_height": 9,
-                            "height_rand_a": 4,
+                            "base_height": 1,
+                            "height_rand_a": 1,
                             "height_rand_b": 0,
                             "type": "minecraft:straight_trunk_placer"
                         }
@@ -71,7 +71,7 @@
         },
         "decorator": {
             "config": {
-                "count": 0,
+                "count": 2,
                 "extra_chance": 0.02,
                 "extra_count": 1
             },
