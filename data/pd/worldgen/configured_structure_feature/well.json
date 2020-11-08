@@ -3,5 +3,5 @@
         "start_pool": "pd:well",
         "size": 1
     },
-    "type": "minecraft:village"
+    "type": "minecraft:bastion_remnants"
 }

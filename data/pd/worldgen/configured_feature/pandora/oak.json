@@ -15,7 +15,7 @@
                         },
                         "decorators": [
                             {
-                                "probability": 0.1,
+                                "probability": 0.05,
                                 "type": "minecraft:beehive"
                             }
                         ],
@@ -24,7 +24,7 @@
                                 "Properties": {
                                     "axis": "y"
                                 },
-                                "Name": "minecraft:birch_log"
+                                "Name": "minecraft:oak_log"
                             },
                             "type": "minecraft:simple_state_provider"
                         },
@@ -34,7 +34,7 @@
                                     "persistent": "false",
                                     "distance": "7"
                                 },
-                                "Name": "minecraft:birch_leaves"
+                                "Name": "minecraft:oak_leaves"
                             },
                             "type": "minecraft:simple_state_provider"
                         },
@@ -46,7 +46,7 @@
                         },
                         "trunk_placer": {
                             "base_height": 9,
-                            "height_rand_a": 4,
+                            "height_rand_a": 2,
                             "height_rand_b": 0,
                             "type": "minecraft:straight_trunk_placer"
                         }
