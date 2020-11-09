@@ -43,6 +43,16 @@
                         "weirdness": 0.5,
                         "offset": 0
                     }
+                },
+                {
+                    "biome": "pd:badlands",
+                    "parameters": {
+                        "altitude": 0.5,
+                        "temperature": 1,
+                        "humidity": 0.5,
+                        "weirdness": 0.7,
+                        "offset": 0
+                    }
                 }
             ]
         },

@@ -9,8 +9,8 @@
         },
         "sky_color": 7907327,
         "fog_color": 12638463,
-        "foliage_color": 16756934,
-        "grass_color": 2767231,
+        "foliage_color": 16765672,
+        "grass_color": 6122671,
         "water_color": 2778239,
         "water_fog_color": 2778239
     },
@@ -21,7 +21,8 @@
         [],
         [],
         [
-            "minecraft:fossil"
+            "minecraft:fossil",
+            "minecraft:monster_room"
         ],
         [],
         [],
@@ -52,7 +53,7 @@
             "pd:pandora/birch",
             "pd:pandora/bush",
             "pd:pandora/shrooms",
-            "pd:pandora/glowstone",
+            "pd:badlands/blackstone",
             "pd:pandora/sugarcane",
             "pd:pandora/flowers",
             "pd:pandora/lilypad",
@@ -73,7 +74,62 @@
         "minecraft:ruined_portal_ocean"
     ],
     "spawners": {
-        "monster": [],
+        "monster": [
+            {
+                "type": "minecraft:spider",
+                "weight": 100,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:zombie",
+                "weight": 95,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:zombie_villager",
+                "weight": 5,
+                "minCount": 1,
+                "maxCount": 1
+            },
+            {
+                "type": "minecraft:skeleton",
+                "weight": 100,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:creeper",
+                "weight": 100,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:slime",
+                "weight": 100,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:enderman",
+                "weight": 10,
+                "minCount": 1,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:witch",
+                "weight": 5,
+                "minCount": 1,
+                "maxCount": 1
+            },
+            {
+                "type": "minecraft:slime",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 1
+            }
+        ],
         "creature": [
             {
                 "type": "minecraft:sheep",
